@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    body{
+      background-color: rgba(41, 150, 175, 0.99);
+    }
+     form{
+        height: 350px;
+        width:450px;
+        background-color: white;
+         border-radius: 10px;
+        margin-top: 150px;
+        margin-left: 400px;
+    }
+     .heading{
+         height: 70px;
+         background-color: #f3f3f3;
+         font-size: 25px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+     .box1{
+         height: 200px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+        }
+     .field{
+        height: 30px;
+        width: 300px;
+        margin: 10px 0;
+      }
+     .box2{
+        display: flex;
+        justify-content: space-evenly ;
+         }
+     button{
+         height: 30px;
+         width:  90px;
+         border-radius: 5px;
+         }
+   </style>
+
+</head>
+<body>
+
+<form>
+
+  <div class="heading">Вхiд в особистий кабiнет</div>
+
+   <div class="box1">
+
+     <input  type="email" name="email"  class="field"  placeholder="Логiн або email"  required >
+     <input type="password" name="password"  class="field" placeholder="Пароль" >
+
+   </div>
+
+    <div class="box2">
+        <label for="checkbox"> Запам'ятати мене <input type="checkbox" id="checkbox" name="checkbox">
+        </label>
+        <button>Вхiд</button>
+    </div>
+
+</form>
+
+</body>
+</html>
